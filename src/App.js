@@ -1,9 +1,12 @@
-import './App.css';
+
+import Header from './components/Header';
+import CreateArea from './components/createArea';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello </h1>
+      <Header />
+      <CreateArea />
     </div>
   );
 }

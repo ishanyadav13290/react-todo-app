@@ -1,13 +1,63 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(38, 50, 56);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.header{
+  padding: 2vh;
+  width: 100%;
+}
+
+.projectName{
+  position: relative;
+  left: 50px;
+  font-family: "McLaren", cursive;
+  color: white;
+}
+
+.createArea{
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.createArea form{
+  text-align: right;
+  background-color: rgb(66, 70, 72);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.createArea input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 5px;
+  display: block;
+  color: white;
+}
+
+.createArea button {
+  border: none;
+  padding: 2px 10px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
 }
