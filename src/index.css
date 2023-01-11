@@ -60,4 +60,33 @@ body {
   font-size: 16px;
   border-radius: 50px;
   cursor: pointer;
+  background-color: rgb(245, 186, 19);
+}
+
+.notes {
+  background: rgb(28, 35, 51);
+  border-radius: 7px;
+  color: white;
+  box-shadow: 0 0px 2px rgb(245, 186, 19);
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.notes h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.notes p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.notes hr{
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 10px 0;
 }
