@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,10 +13,16 @@ body {
     background-color: rgb(38, 50, 56);
 }
 
-.app{
+.App{
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
+  width: 100vw;
+  position:relative;
+}
+
+.root{
+  height:auto;
 }
 
 .header{
@@ -89,4 +95,25 @@ body {
   border: none;
   border-bottom: 1px solid white;
   margin: 10px 0;
+}
+
+.Footer{
+  padding: 10px 0 0 0;
+  color: white;
+  height: 70px;
+  position: relative;
+  bottom: -392px;
+  background-color:rgb(14, 21, 37) ;
+  text-align: center;
+}
+
+.Footer div{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin: 0 10px;
 }
