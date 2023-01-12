@@ -16,8 +16,12 @@ function CreateArea(props){
         
     }
     function submitNote(event){
-        props.onAdd(note)
+      ( note.title=="" && note.content=="" )?alert("Notes can't be empty") : props.onAdd(note)
         event.preventDefault()
+        setNote({
+            title: "",
+            content: ""
+        })
     }
     return <div className="createArea"> 
         <form>
