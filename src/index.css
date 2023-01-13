@@ -108,8 +108,12 @@ body {
 }
 
 .Footer div{
-  display: flex;
+  /* display: flex; */
   justify-content: center;
+  text-align: center;
+  position: fixed;
+  left: 40%;
+  right: 40%;
 }
 a{
   text-decoration: none;
