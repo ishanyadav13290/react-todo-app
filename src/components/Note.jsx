@@ -1,4 +1,11 @@
 function Note(props){
+    let style={
+        background:"transparent",
+        padding:"3px",
+        color:"white",
+        border:"1px solid white",
+        cursor:"pointer"
+    }
     function handleClick(){
         props.onDelete(props.id)
     }
@@ -7,7 +14,7 @@ function Note(props){
             <h1>{props.title}</h1>
             <hr />
             <p>{props.content}</p>
-            <button onClick={handleClick}>Delete</button>
+            <button onClick={handleClick} style={style}>Delete</button>
         </div>
     </>
 }
